@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
 #content{
     max-width: 1660px;
     margin: 0 auto;
 }
 
 #background{
-    background-color: #1797D1;
+    background-color: #182B8D;
+    height: 725px;
 }
 
 #hero-mesage{
@@ -19,18 +22,29 @@
     width: 100%;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 body{
-    background-color: #182B8D;
+    background-color: #1797D1;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #E5ECF4;
 }
 
+h2{
+    margin: 0;
+}
+
 nav a{
     text-align: center;
     color:#CE1036;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a :hover{
@@ -42,12 +56,17 @@ main{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 h4{
     color:#E5ECF4;
 }
 
 footer{
     background-color:#E5ECF4;
+    padding: 25px 50px;
 }
 
 footer h3{
@@ -67,36 +86,54 @@ footer a:hover{
     text-decoration: underline;
 }
 
+.Social{
+    padding-top: 15px;
+}
+
 .book{
-    background-color: #182B8D;
-    color:#1797D1;
+    background-color: #1797D1;
+    color:#E5ECF4;
     text-decoration: none;
+    font-family: 'Bungee Outline';
+    font-size: 30px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 .join{
-    background-color: #182B8D;
-    color:#1797D1;
+    background-color: #1797D1;
+    color:#E5ECF4;
     text-decoration: none;
+    font-family: 'Bungee Outline';
+    font-size: 25px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-.book :hover{
-    background-color: #182B8D;
-    color:#E5ECF4
+.book:hover{
+    background-color: #1797D1;
+    color:#182B8D
 }
 
 .join:hover{
-    background-color: #182B8D;
-    color:#E5ECF4
+    background-color: #1797D1;
+    color:#182B8D
 }
 
 .msg h2{
-    background-color: #CE1036;
+    background-color: #E5ECF4;
     color:#182B8D;
+    padding: 35px;
 }
 
 .msg p{
-    background-color: #CE1036;
-    color:#182B8D;
+    background-color: #1797D1;
+    color:#E5ECF4;
+    font-family: 'Bungee Outline';
+    font-size: 1.5em;
+    padding-bottom: 15px;
 }
 
 .button-box{
@@ -105,12 +142,32 @@ footer a:hover{
 
 .home-title{
     color:#CE1036;
+    font-family: 'Bungee Outline';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon{
     width: 80px;
+    padding: 10px;
 }
 
 .logo{
     width: 80px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border:10px solid black;
 }
