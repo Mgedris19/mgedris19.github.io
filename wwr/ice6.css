@@ -1,0 +1,37 @@
+body{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: black;
+}
+
+#above{
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    
+}
+img{
+    height:0% auto;
+    width: 0% auto;
+}
+
+
+.image{
+    grid-row: 1/3;
+}
+.grid_content{
+    grid-row: 3/-1;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.btn_success{
+    background-color: orange;
+    color:white;
+    font-style: bold;
+    
+} 
