@@ -221,7 +221,7 @@ footer a:hover{
 
 .rivers-card{
     margin: 200px 0;
-    grid-column: 2/4;
+    grid-column: 1/3;
     grid-row: 1/3;
 }
 
@@ -233,7 +233,7 @@ footer a:hover{
 
 .rapids-card{
     margin: 200px 0;
-    grid-column: 8/10;
+    grid-column: 9/12;
     grid-row: 1/3;
 }
 
