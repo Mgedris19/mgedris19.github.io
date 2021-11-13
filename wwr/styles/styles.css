@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
 #content{
-    max-width: 1660px;
+    max-width: 1685px;
     margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@
 
 #hero-mesage{
     text-align: center;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 1/2;
     margin-top: 100px;
 }
@@ -23,16 +23,19 @@
     text-align: center;
 }
 
+#hero-box img{
+    width: 100%;
+}
+
 #hero{
     width: 100%;
     display: grid;
-    grid-template-columns: .7fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-top: -100px;
-    margin-left: 250px;
 }
 
 #hero-box{
-    grid-column: 1/4;
+    grid-column: 1/6;
     grid-row: 1/3;
     z-index: -1;
 }
@@ -175,7 +178,7 @@ footer a:hover{
 .msg{
     background-color: #1797D1;
     padding: 35px;
-    grid-column: 6/10;
+    grid-column: 9/13;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #182B8D;
 }
@@ -213,6 +216,18 @@ footer a:hover{
 .icon{
     width: 80px;
     padding: 10px;
+}
+
+.ri-icon{
+    padding-left: 190px;
+}
+
+.c-icon{
+    padding-left: 190px;
+}
+
+.ra-icon{
+    padding-left: 100px;
 }
 
 .logo{
