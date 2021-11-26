@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body{
+    background-color: #A69DA2;
+    color: #3A4750;
+}
+
+h1{
+    font-family: 'Merienda One', Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: 'Merienda One', Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+}
+
+/* 
+    #3A4750 Dark grey
+    #A69DA2 Light grey
+    #00F621 Green thing
+    #00918C Weird teal
+*/
+
+header{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #00918C;
+    height: 170px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav{
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+header nav a{
+    padding-top: 100px;
+}
+
+footer{
+    height: 200px;
+    text-align: center;
+}
+
+footer nav{
+    padding: 75px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #00918C;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+footer nav h1{
+    grid-column: 1/4;
+}
+
+footer nav p{
+    grid-column: 3;
+}
+
+#opening{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1/3fr 1fr 1fr;
+}
+
+#opening h1{
+    grid-column: 1/3;
+}
+
+#opening p{
+    grid-column: 1/3;
+    font-size: 18px;
+}
+
+#why{
+    text-align: center;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#why img{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #00F621;
+}
+
+.logo{
+    height: 70%;
+}
+
+.maya{
+    width: 20%;
+}
+
+.blender{
+    width: 50%;
+}
