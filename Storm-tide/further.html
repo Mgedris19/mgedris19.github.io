@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="further.css">
     <title>Going further</title>
 </head>
 <body>
@@ -14,7 +15,6 @@
             <img class="logo" src="images/Storm_tide.PNG" alt="Storm tide">
         </a>
         <nav>
-            <a href="index.html"></a>
             <a href="modeling.html">Modeling</a>
             <a href="site-plan.html">Site plan</a>
             <a href ="further.html">additional information</a>
@@ -26,32 +26,38 @@
         Alright so you can do some modeling and maybe you’re feeling comfortable with it.  But you might
         be having the feeling of wanting to take it further.  There are a few other places you can go.
     </p>
-    <h1>UV Mapping:</h1>
-    <p>
-        One of the easiest things to do, (because it’s built into most engines) is what is called uv mapping.  
-        This is how it would work.  On each of your shapes there are faces.  This is what you typically are grabbing when 
-        you want to move pieces of it around.  But with uv mapping this is what becomes the part of the object that looks 
-        painted.  To do this open up the UV mapping editor and a small window will pop out.  You do have to import the image
-        you want to map into it, here is a link that describes it a little bit better.  Now you just have to move the faces 
-        of the object to be located where you want them.  The movement is similar to how you would move and interact with the
-        faces outside of the uv editor.
-    </p>
-    <h1>
-        Painting:
-    </h1>
-    <img src="images/Lightsaber.PNG" alt="">
-    <img src="images/Toad.PNG" alt="">
-    <p>
-        If you can’t find a way to map the object there is another option to paint it, and that is painting it.  
-        There are a handful of 3D painters out there and really you just have to know where to look.  I believe that 
-        Adobe does have a free option for students to use, though I am not sure of the process myself.  The idea behind 
-        it would be to take the model into the painting engine and then paint it.  The difficult part about this is 
-        getting it so the faces are all aligned and not overlapped, unless you want some of the faces to look the same, 
-        in which case then by all means lighten your workload.  To do this you need to go into the UV editor (as described 
-        above) and move the faces around so they aren’t touching any of the faces.  The other big thing to note about this 
-        is you shouldn’t have the faces overlapping on a grid line.  Reason for this being when you go to paint it, the 
-        file won’t export correctly.
-    </p>
+    <div id="mapping">
+        <h1>UV Mapping:</h1>
+        <img src="images/begining UV.PNG" alt="open edditor">
+        <p>
+            One of the easiest things to do, (because it’s built into most engines) is what is called uv mapping.  
+            This is how it would work.  On each of your shapes there are faces.  This is what you typically are grabbing when 
+            you want to move pieces of it around.  But with uv mapping this is what becomes the part of the object that looks 
+            painted.  To do this open up the UV mapping editor and a small window will pop out.  You do have to import the image
+            you want to map into it, here is a link that describes it a little bit better.  Now you just have to move the faces 
+            of the object to be located where you want them.  The movement is similar to how you would move and interact with the
+            faces outside of the uv editor.
+        </p>
+        <img id="zerrin" src="images/zerin on a cube.PNG" alt="I put my friend on a cube">
+    </div>
+    <div id="painter">
+        <h1>
+            Painting:
+        </h1>
+        <img id="lightsaber" src="images/Lightsaber.PNG" alt="">
+        <p>
+            If you can’t find a way to map the object there is another option to paint it, and that is painting it.  
+            There are a handful of 3D painters out there and really you just have to know where to look.  I believe that 
+            Adobe does have a free option for students to use, though I am not sure of the process myself.  The idea behind 
+            it would be to take the model into the painting engine and then paint it.  The difficult part about this is 
+            getting it so the faces are all aligned and not overlapped, unless you want some of the faces to look the same, 
+            in which case then by all means lighten your workload.  To do this you need to go into the UV editor (as described 
+            above) and move the faces around so they aren’t touching any of the faces.  The other big thing to note about this 
+            is you shouldn’t have the faces overlapping on a grid line.  Reason for this being when you go to paint it, the 
+            file won’t export correctly.
+        </p>
+        <img id="toad" src="images/Toad.PNG" alt="">
+    </div>
     <h1>
         Getting the model into the painting engine:
     </h1>

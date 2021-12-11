@@ -17,6 +17,10 @@ p{
     font-family: 'Kanit', Arial, Helvetica, sans-serif;
 }
 
+a{
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+}
+
 /* 
     #3A4750 Dark grey
     #A69DA2 Light grey
@@ -31,6 +35,8 @@ header{
     height: 170px;
     width: 90%;
     margin: 0 auto;
+
+    
 }
 
 header nav{
@@ -45,7 +51,7 @@ header nav a{
 }
 
 footer{
-    height: 200px;
+    height: 50px;
     text-align: center;
 }
 
