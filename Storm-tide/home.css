@@ -35,8 +35,6 @@ header{
     height: 170px;
     width: 90%;
     margin: 0 auto;
-
-    
 }
 
 header nav{
@@ -48,6 +46,7 @@ header nav{
 
 header nav a{
     padding-top: 100px;
+    text-decoration: none;
 }
 
 footer{
@@ -56,11 +55,11 @@ footer{
 }
 
 footer nav{
-    padding: 75px;
+    padding: 25px;
     margin: 0 auto;
     margin-top: 20px;
     background-color: #00918C;
-    width: 75%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -68,6 +67,7 @@ footer nav{
 
 footer nav h1{
     grid-column: 1/4;
+    margin: 0 auto;
 }
 
 footer nav p{
@@ -80,7 +80,7 @@ footer nav p{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1/3fr 1fr 1fr;
+    grid-template-rows: 0.333fr 1fr 1fr;
 }
 
 #opening h1{

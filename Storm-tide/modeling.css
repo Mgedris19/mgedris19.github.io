@@ -3,6 +3,10 @@ img {
   width: 50%;
 }
 
+body{
+  color: #3A4750;
+}
+
 header{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -65,22 +69,13 @@ a{
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+  background-color: #00918C;
+  height: 170px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 
 
